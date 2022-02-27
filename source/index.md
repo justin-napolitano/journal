@@ -1,7 +1,7 @@
 ---
 title: Justin Napolitano
 ---
-## Articles
+# Articles
 
 :::{card}
 
@@ -15,7 +15,7 @@ parts/articles/placeholder
 
 :::
 
-## Tutorials
+# Tutorials
 
 :::{card}
 
@@ -23,16 +23,16 @@ parts/articles/placeholder
 :caption: Tutorials
 :maxdepth: 2
 
-development_tools/index
-latex/index
-perl/index
+parts/tutorials/development_tools/index
+parts/tutorials/latex/index
+parts/tutorials/perl/index
 
 ```
-
 :::
 
 
-## Posts 
+
+# Posts 
 
 :::{card}
 
@@ -47,7 +47,7 @@ parts/journal/posts
 :::
 
 
-## Tables and Indices
+# Tables and Indices
 
 :::{card}
 
