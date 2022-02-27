@@ -1,4 +1,4 @@
-# Spotify Stuff
+# Spotify
 
 
 ## Description
