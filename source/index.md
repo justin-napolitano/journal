@@ -9,7 +9,7 @@ title: Justin Napolitano
 :caption: Articles
 :maxdepth: 2
 
-parts/articles/subject
+parts/articles/placeholder
 ```
 
 
@@ -23,9 +23,9 @@ parts/articles/subject
 :caption: Tutorials
 :maxdepth: 2
 
-parts/tutorials/development_tools/index
-parts/tutorials/latex/index
-parts/tutorials/perl/index
+development_tools/index
+latex/index
+perl/index
 
 ```
 
