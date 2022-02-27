@@ -1,6 +1,7 @@
 ---
 title: Justin Napolitano
 ---
+
 # Articles
 
 :::{raw} html
@@ -16,8 +17,6 @@ title: Justin Napolitano
 
 parts/articles/place_holder
 ```
-
-
 :::
 
 # Tutorials
@@ -68,7 +67,7 @@ parts/reference/algorithms/index.md
 parts/reference/automation-scripts/index.md
 parts/reference/data-structures/index.md
 ```
-
+:::
 
 # Posts 
 
@@ -87,12 +86,8 @@ parts/reference/data-structures/index.md
 
 parts/journal/posts
 ```
-
-
 :::
 
-
-:::
 
 # Tables and Indices
 
