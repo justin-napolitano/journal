@@ -94,9 +94,9 @@ email_automode = True
 autoapi_type = 'python'
 autoapi_dirs = ['../source']
 autoapi_root= '../source/output-docs'
-autoapi_keep_files = False
+autoapi_keep_files = True
 autoapi_add_toctree_entry = False
-autoapi_generate_api_docs = False
+autoapi_generate_api_docs = True
 
 #Make Section headers refs
 autosectionlabel_prefix_document = True
