@@ -1,13 +1,43 @@
 ---
 title: Justin Napolitano
 ---
-
-## Journal 
+## Articles
 
 :::{card}
 
 ```{toctree}
-:caption: Journal
+:caption: Articles
+:maxdepth: 2
+
+parts/articles/subject
+```
+
+
+:::
+
+## Tutorials
+
+:::{card}
+
+```{toctree}
+:caption: Tutorials
+:maxdepth: 2
+
+parts/tutorials/development_tools/index
+parts/tutorials/latex/index
+parts/tutorials/perl/index
+
+```
+
+:::
+
+
+## Posts 
+
+:::{card}
+
+```{toctree}
+:caption: Posts
 :maxdepth: 2
 
 parts/journal/posts
