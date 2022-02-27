@@ -48,6 +48,27 @@ parts/tutorials/spotify-cli/index
 :::
 
 
+
+# Posts 
+
+
+:::{raw} html
+
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+:::
+
+
+:::{card}
+
+```{toctree}
+:caption: Posts
+:maxdepth: 2
+
+parts/journal/posts
+```
+:::
+
+
 # Reference 
 
 :::{raw} html
@@ -69,22 +90,21 @@ parts/reference/data-structures/index.md
 ```
 :::
 
-# Posts 
 
+# Contact
 
 :::{raw} html
 
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
-
 
 :::{card}
 
 ```{toctree}
-:caption: Posts
+:caption: Contact
 :maxdepth: 2
 
-parts/journal/posts
+parts/contact/index
 ```
 :::
 
