@@ -23,7 +23,7 @@ parts/articles/placeholder
 :caption: Tutorials
 :maxdepth: 2
 
-parts/tutorials/development_tools/index
+parts/tutorials/development-tools/index
 parts/tutorials/latex/index
 parts/tutorials/perl/index
 
