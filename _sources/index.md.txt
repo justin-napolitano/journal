@@ -23,9 +23,17 @@ parts/articles/place_holder
 :caption: Tutorials
 :maxdepth: 2
 
+parts/tutorials/brew/index
 parts/tutorials/development-tools/index
+parts/tutorials/gh/index
+parts/tutorials/go/index
 parts/tutorials/latex/index
 parts/tutorials/perl/index
+parts/tutorials/python/index
+parts/tutorials/rust/index
+parts/tutorials/shells/index
+parts/tutorials/sphinx/index
+parts/tutorials/spotify-cli/index
 
 ```
 :::
@@ -46,6 +54,22 @@ parts/journal/posts
 
 :::
 
+
+# Reference 
+
+:::{card}
+
+```{toctree}
+:caption: Reference
+:maxdepth: 2
+
+parts/reference/algorithms/index.md
+parts/reference/automation-scripts/index.md
+parts/reference/data-structures/index.md
+```
+
+
+:::
 
 # Tables and Indices
 
