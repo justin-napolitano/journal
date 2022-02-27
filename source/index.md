@@ -104,6 +104,7 @@ parts/journal/posts
 :maxdepth: 2
 
 genindex
+py-modindex.rst
 ```
 
 :::
