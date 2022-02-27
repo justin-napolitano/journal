@@ -3,6 +3,11 @@ title: Justin Napolitano
 ---
 # Articles
 
+:::{raw} html
+
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+:::
+
 :::{card}
 
 ```{toctree}
@@ -16,6 +21,11 @@ parts/articles/place_holder
 :::
 
 # Tutorials
+
+:::{raw} html
+
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+:::
 
 :::{card}
 
@@ -39,8 +49,35 @@ parts/tutorials/spotify-cli/index
 :::
 
 
+# Reference 
+
+:::{raw} html
+
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+:::
+
+
+
+:::{card}
+
+```{toctree}
+:caption: Reference
+:maxdepth: 2
+
+parts/reference/algorithms/index.md
+parts/reference/automation-scripts/index.md
+parts/reference/data-structures/index.md
+```
+
 
 # Posts 
+
+
+:::{raw} html
+
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+:::
+
 
 :::{card}
 
@@ -55,23 +92,15 @@ parts/journal/posts
 :::
 
 
-# Reference 
-
-:::{card}
-
-```{toctree}
-:caption: Reference
-:maxdepth: 2
-
-parts/reference/algorithms/index.md
-parts/reference/automation-scripts/index.md
-parts/reference/data-structures/index.md
-```
-
-
 :::
 
 # Tables and Indices
+
+:::{raw} html
+
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+:::
+
 
 :::{card}
 

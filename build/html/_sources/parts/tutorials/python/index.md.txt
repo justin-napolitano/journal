@@ -1,4 +1,4 @@
-:::{post}
+:::{post} 
 :tags: python, programming, tensorflow. ml, ai, machine-learning, artificial-intelligence, modules
 :category: Machine Learning
 :author: Justin Napolitano
@@ -8,7 +8,7 @@
 
 
 
-# Python Stuff
+# Python
 
 
 :::{card}

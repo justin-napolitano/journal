@@ -1,4 +1,4 @@
-# GH CLI Stuff
+# GH CLI
 
 
 

@@ -1,4 +1,4 @@
-# Rust Stuff
+# Rust
 
 :::{card}
 
