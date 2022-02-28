@@ -1,4 +1,4 @@
-# Configuraing Jupyter For Data Science
+# Configuring Jupyter For Data Science
 
 ## Installation 
 
@@ -10,7 +10,7 @@ pip3 install jupyter
 
 ## Initial Configuration 
 
-I typically begin my configuration by creating a data science virtual envioronment.  To begin this section of the tutorial open a terminal window. 
+I typically begin my configuration by creating a data science virtual environment.  To begin this section of the tutorial open a terminal window. 
 
 
 ### Create Your Venv
@@ -54,4 +54,4 @@ Select kernal from the dropbown menu and select your new venv kernal.
 
 View the screenshot below.
 
-[Screen Shot](/_static/pictures/jupyter-kernal-select.jpeg)
+![Screen Shot](/_static/pictures/jupyter-kernal-select.jpeg "Screen Shot")
