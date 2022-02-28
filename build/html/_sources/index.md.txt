@@ -44,6 +44,7 @@ parts/tutorials/brew/index
 parts/tutorials/development-tools/index
 parts/tutorials/gh/index
 parts/tutorials/go/index
+parts/tutorials/jupyter/index
 parts/tutorials/latex/index
 parts/tutorials/perl/index
 parts/tutorials/python/index
