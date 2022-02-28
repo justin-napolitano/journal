@@ -122,6 +122,7 @@ parts/contact/index
 :::{raw} html
 
     <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+
 :::
 
 
@@ -131,6 +132,7 @@ parts/contact/index
 :caption: Tables and Indices
 :maxdepth: 2
 
+parts/bibliography/bibliography.md
 genindex
 py-modindex.rst
 ```
