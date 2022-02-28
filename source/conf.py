@@ -180,7 +180,7 @@ html_theme = 'sphinx_book_theme'
 html_use_index = True
 
 html_logo = "_static/icons/faviconio-logo/logo.png"
-html_favicon = "_static/icons/favicon_io-white/android-chrome-512x512.png"
+html_favicon = "_static/icons/FAVICON.png"
 html_last_updated_fmt = ""
 
 # Theme options are theme-specific and customize the look and feel of a theme
