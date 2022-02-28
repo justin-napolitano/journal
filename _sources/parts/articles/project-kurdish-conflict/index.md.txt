@@ -12,7 +12,9 @@ I specialize in studying terrorism and conflict.  I am most interested in studyi
 
 ## Intent of Research
 
-Terrorism, conflict, and violence are abhorrent truths of life.  Identity groups fight to attain scarce resources.   These may be physical resources such as natural gas reserves or access to warm water ports.   It also possible -especially when considering regional powers- that agents engage in warfare to attain political dominance, clan honor, or social status.   In considering the Kurds of Anatolia, it appears that religious ideology and political oppression are the driving forces influencing their skirmishes with the Turkish Government.   I question this orthodoxy.  Rather, I consider the role of economic and social exclusion to be the forces influencing young men and women to surrender their lives.  The data collected for this project catalogues human rights abuses to identify hot-zones of terrorist activity.  These data are then compared to the socioeconomic conditions of identified hot-zones to determine the role of ideology and economics in terrorism and conflict studies.   
+Terrorism, conflict, and violence are abhorrent truths of life.  Identity groups fight to attain scarce resources.   These may be physical resources such as natural gas reserves or access to warm water ports.   It also possible -especially when considering regional powers- that agents engage in warfare to attain political dominance, clan honor, or social status.   
+
+In considering the Kurds of Anatolia, it appears that religious ideology and political oppression are the driving forces influencing their skirmishes with the Turkish Government.   I question this orthodoxy.  Rather, I consider the role of economic and social exclusion to be the forces influencing young men and women to surrender their lives.  The data collected for this project catalogues human rights abuses to identify hot-zones of terrorist activity.  These data are then compared to the socioeconomic conditions of identified hot-zones to determine the role of ideology and economics in terrorism and conflict studies.   
 
 ## Limits of this Research
 

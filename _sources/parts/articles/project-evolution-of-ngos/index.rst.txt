@@ -8,7 +8,7 @@
 .. _evolution_of_ngo_paper:
 
 *********************************************************************
-The World Trade Organization, Governments, and International Finance
+The World Trade Organization, Governments, and International Trade
 *********************************************************************
 
 
