@@ -15,7 +15,10 @@ title: Justin Napolitano
 :caption: Articles
 :maxdepth: 2
 
-parts/articles/place_holder
+parts/articles/project-evolution-of-ngos/index
+parts/articles/project-supcourt-masterpiececake/index
+parts/articles/project-turkish-kurdish/index
+
 ```
 :::
 
