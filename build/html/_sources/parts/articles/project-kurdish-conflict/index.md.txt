@@ -29,11 +29,18 @@ Below I include some quick links to the project documentation.
 
 ### Links
 
-[PDF Manual](https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/pdf.html)
-	* {download}` Pdf Download <pdf/turkish-kurdish-conflict-event-database-manual.pdf>`
+#### Pdf
 
-[Excel Analysis](https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/analysis.html)
-	* {download}` Excel Download <data/current_data/august2019.xlsm>` 
+-  [PDF Manual](https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/pdf.html)
+- {download}` Pdf Download <pdf/turkish-kurdish-conflict-event-database-manual.pdf>`
 
-[Reference Tables](https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/reference_tables.html)
+
+#### Excel
+
+- {download}` Excel Download <data/current_data/august2019.xlsm>` 
+
+
+#### Reference Tables
+
+- [Reference Tables](https://docs.jnapolitano.io/parts/analysis/political-analysis/terrorism-conflict/project-turkish-kurdish/reference_tables.html)
 
