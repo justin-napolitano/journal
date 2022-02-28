@@ -5,59 +5,59 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta property="og:title" content="Configuraing Jupyter For Data Science" />
+  <meta property="og:title" content="Configuraing Conda For Data Science" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="parts/tutorials/Conda/config-jupyter.html" />
-  <meta property="og:description" content="Installation: Initial Configuration: I typically begin my configuration by creating a data science virtual envioronment. To begin this section of the tutorial open a terminal window. Create Your Ve..." />
+  <meta property="og:url" content="parts/tutorials/Conda/docs/configure-conda.html" />
+  <meta property="og:description" content="Installation: Navigate to https://www.anaconda.com/products/individual to download conda for your system. Initial Configuration: I typically begin my configuration by creating a data science virtua..." />
   
-    <title>Configuraing Jupyter For Data Science &#8212; Justin Napolitano</title>
+    <title>Configuraing Conda For Data Science &#8212; Justin Napolitano</title>
     
-  <link href="../../../_static/css/theme.css" rel="stylesheet">
-  <link href="../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <link href="../../../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
-    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+    href="../../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+    href="../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+    href="../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
     
       
 
     
-    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
     
-  <link rel="preload" as="script" href="../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <link rel="preload" as="script" href="../../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
-    <script src="../../../_static/jquery.js"></script>
-    <script src="../../../_static/underscore.js"></script>
-    <script src="../../../_static/doctools.js"></script>
-    <script src="../../../_static/togglebutton.js"></script>
-    <script src="../../../_static/clipboard.min.js"></script>
-    <script src="../../../_static/copybutton.js"></script>
+    <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
+    <script src="../../../../_static/jquery.js"></script>
+    <script src="../../../../_static/underscore.js"></script>
+    <script src="../../../../_static/doctools.js"></script>
+    <script src="../../../../_static/togglebutton.js"></script>
+    <script src="../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../../_static/design-tabs.js"></script>
-    <script src="../../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <script src="../../../../_static/design-tabs.js"></script>
+    <script src="../../../../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
     </script>
-    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
-    <link rel="shortcut icon" href="../../../_static/FAVICON.png"/>
-    <link rel="index" title="Index" href="../../../genindex.html" />
-    <link rel="search" title="Search" href="../../../search.html" /> 
+    <script async="async" src="../../../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../../../_static/FAVICON.png"/>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -67,7 +67,7 @@
 <link
   rel="alternate"
   type="application/atom+xml"
-  href="../../journal/posts/atom.xml"
+  href="../../../journal/posts/atom.xml"
   title="Blog"
 />
  
@@ -114,24 +114,24 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
     
         <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../../../index.html">
+    <a class="navbar-brand text-wrap" href="../../../../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
         
       
       
-      <img src="../../../_static/logo.png" class="logo" alt="logo">
+      <img src="../../../../_static/logo.png" class="logo" alt="logo">
       
       
     </a>
-</div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+</div><form class="bd-search d-flex align-items-center" action="../../../../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../../index.html">
+  <a class="reference internal" href="../../../../index.html">
    journal.jnapolitano.io
   </a>
  </li>
@@ -143,17 +143,17 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../articles/project-evolution-of-ngos/index.html">
+  <a class="reference internal" href="../../../articles/project-evolution-of-ngos/index.html">
    The World Trade Organization, Governments, and International Trade
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../articles/project-supcourt-masterpiececake/index.html">
+  <a class="reference internal" href="../../../articles/project-supcourt-masterpiececake/index.html">
    Voting Behavior, Textual Analysis, and the Spirit of the Law
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../articles/project-kurdish-conflict/index.html">
+  <a class="reference internal" href="../../../articles/project-kurdish-conflict/index.html">
    Terrorism and Conflict Anatolia
   </a>
  </li>
@@ -165,7 +165,7 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../brew/index.html">
+  <a class="reference internal" href="../../brew/index.html">
    Brew
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -175,14 +175,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../brew/docs/brew_install.html">
+    <a class="reference internal" href="../../brew/docs/brew_install.html">
      Brew Install
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../development-tools/index.html">
+  <a class="reference internal" href="../../development-tools/index.html">
    Development Tools
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
@@ -192,14 +192,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../development-tools/docs/00-install.html">
+    <a class="reference internal" href="../../development-tools/docs/00-install.html">
      Development Tools Installation
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../gh/index.html">
+  <a class="reference internal" href="../../gh/index.html">
    GH CLI
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
@@ -209,14 +209,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../gh/docs/gh_install.html">
+    <a class="reference internal" href="../../gh/docs/gh_install.html">
      Gh CLi Install
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../go/index.html">
+  <a class="reference internal" href="../../go/index.html">
    Go
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
@@ -226,14 +226,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../go/docs/installation.html">
+    <a class="reference internal" href="../../go/docs/installation.html">
      Go installation
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../jupyter/index.html">
+  <a class="reference internal" href="../../jupyter/index.html">
    Jupyter
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
@@ -243,14 +243,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../jupyter/docs/config-jupyter.html">
+    <a class="reference internal" href="../../jupyter/docs/config-jupyter.html">
      Configuring Jupyter For Data Science
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../latex/index.html">
+  <a class="reference internal" href="../../latex/index.html">
    Latex
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
@@ -260,14 +260,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../latex/docs/00-tex-live-install.html">
+    <a class="reference internal" href="../../latex/docs/00-tex-live-install.html">
      Installing Tex Live
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../perl/index.html">
+  <a class="reference internal" href="../../perl/index.html">
    Perl
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
@@ -277,14 +277,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../perl/docs/00-perl-install.html">
+    <a class="reference internal" href="../../perl/docs/00-perl-install.html">
      Perl Installation
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../python/index.html">
+  <a class="reference internal" href="../../python/index.html">
    Python
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
@@ -294,19 +294,19 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../python/docs/0_python_install.html">
+    <a class="reference internal" href="../../python/docs/0_python_install.html">
      Python Install
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../python/docs/1_virtualenv_install.html">
+    <a class="reference internal" href="../../python/docs/1_virtualenv_install.html">
      virtualenv Install
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../rust/index.html">
+  <a class="reference internal" href="../../rust/index.html">
    Rust
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
@@ -316,14 +316,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../rust/docs/rust-install.html">
+    <a class="reference internal" href="../../rust/docs/rust-install.html">
      Rust Installation
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../shells/index.html">
+  <a class="reference internal" href="../../shells/index.html">
    Shell Configuration
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
@@ -333,29 +333,29 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../shells/docs/1-fish-installation.html">
+    <a class="reference internal" href="../../shells/docs/1-fish-installation.html">
      Fish Installation
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../shells/docs/2-ohmyfishinstall.html">
+    <a class="reference internal" href="../../shells/docs/2-ohmyfishinstall.html">
      Oh My Fish Installation
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../shells/docs/3-starship-config.html">
+    <a class="reference internal" href="../../shells/docs/3-starship-config.html">
      Starship Config Options
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../shells/docs/4-starship-install.html">
+    <a class="reference internal" href="../../shells/docs/4-starship-install.html">
      Starship Installation
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../sphinx/index.html">
+  <a class="reference internal" href="../../sphinx/index.html">
    Sphinx
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
@@ -365,14 +365,14 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../sphinx/docs/build-this-site.html">
+    <a class="reference internal" href="../../sphinx/docs/build-this-site.html">
      Build this Website
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../spotify-cli/index.html">
+  <a class="reference internal" href="../../spotify-cli/index.html">
    Spotify
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
@@ -382,7 +382,7 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../spotify-cli/docs/shpotify.html">
+    <a class="reference internal" href="../../spotify-cli/docs/shpotify.html">
      Schpotify Install and config
     </a>
    </li>
@@ -396,7 +396,7 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../journal/posts.html">
+  <a class="reference internal" href="../../../journal/posts.html">
    Posts
   </a>
  </li>
@@ -408,7 +408,7 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../reference/algorithms/index.html">
+  <a class="reference internal" href="../../../reference/algorithms/index.html">
    Algorithms
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
@@ -418,7 +418,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../reference/algorithms/python/index.html">
+    <a class="reference internal" href="../../../reference/algorithms/python/index.html">
      Python Algorithms
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
@@ -428,7 +428,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/binary-search-iterative.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/binary-search-iterative.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          binary_search_iterative
@@ -437,7 +437,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/binary-search-k.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/binary-search-k.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          binary_searchK
@@ -446,7 +446,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/binary-search-recursive.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/binary-search-recursive.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          binary_search_recursive
@@ -455,7 +455,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/escape-maze.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/escape-maze.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          escapeMaze
@@ -464,7 +464,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/insertionSort.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/insertionSort.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          insertionSort
@@ -473,7 +473,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/listsum.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/listsum.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          listsum
@@ -482,7 +482,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/mergeSort.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/mergeSort.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          mergeSort
@@ -491,7 +491,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/min-coin-cache.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/min-coin-cache.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          min_coin_cache
@@ -500,7 +500,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/min-coin-tree.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/min-coin-tree.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          min_coin_tree
@@ -509,7 +509,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/ordered-sequential-search.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/ordered-sequential-search.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          ordered_sequential_search
@@ -518,7 +518,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/palchecker.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/palchecker.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          palchecker
@@ -527,7 +527,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/prims-algorithm.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/prims-algorithm.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          prims_algorithm
@@ -536,7 +536,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/quick-sort.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/quick-sort.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          quick_sort
@@ -545,7 +545,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/quick_er_sort.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/quick_er_sort.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          quicksort
@@ -554,7 +554,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/selection_sort.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/selection_sort.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          selection_sort
@@ -563,7 +563,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/sequential_search.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/sequential_search.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          sequential_search.
@@ -572,7 +572,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/shell-sort.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/shell-sort.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          shell_sort
@@ -581,7 +581,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/short-bubble.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/short-bubble.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          short_bubble
@@ -590,7 +590,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/towerofhanoi.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/towerofhanoi.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          TowerOfHanoi
@@ -599,7 +599,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/tree_in_order.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/tree_in_order.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          tree_in_order
@@ -608,7 +608,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/tree_post-order.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/tree_post-order.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          tree_post_order
@@ -617,7 +617,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/tree_pre_order.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/tree_pre_order.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          tree_pre_order
@@ -626,7 +626,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/triangle.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/triangle.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          sierpinski_triangle
@@ -635,7 +635,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/algorithms/python/docs/unordered_list.html">
+      <a class="reference internal" href="../../../reference/algorithms/python/docs/unordered_list.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          unordered_list
@@ -648,7 +648,7 @@
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../reference/automation-scripts/index.html">
+  <a class="reference internal" href="../../../reference/automation-scripts/index.html">
    Automation Scripts
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
@@ -658,7 +658,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../reference/automation-scripts/sphinx/index.html">
+    <a class="reference internal" href="../../../reference/automation-scripts/sphinx/index.html">
      Sphinx Scripts
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
@@ -668,27 +668,27 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/automation-scripts/sphinx/docs/acp.html">
+      <a class="reference internal" href="../../../reference/automation-scripts/sphinx/docs/acp.html">
        acp.sh
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/automation-scripts/sphinx/docs/chtml.html">
+      <a class="reference internal" href="../../../reference/automation-scripts/sphinx/docs/chtml.html">
        chtml.sh
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/automation-scripts/sphinx/docs/deployz.html">
+      <a class="reference internal" href="../../../reference/automation-scripts/sphinx/docs/deployz.html">
        Deployz.sh
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/automation-scripts/sphinx/docs/doit.html">
+      <a class="reference internal" href="../../../reference/automation-scripts/sphinx/docs/doit.html">
        doit.sh
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/automation-scripts/sphinx/docs/label_list.html">
+      <a class="reference internal" href="../../../reference/automation-scripts/sphinx/docs/label_list.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          label_list
@@ -697,12 +697,12 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/automation-scripts/sphinx/docs/pullit.html">
+      <a class="reference internal" href="../../../reference/automation-scripts/sphinx/docs/pullit.html">
        Pullit.sh
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/automation-scripts/sphinx/docs/pushit.html">
+      <a class="reference internal" href="../../../reference/automation-scripts/sphinx/docs/pushit.html">
        Pushit.sh
       </a>
      </li>
@@ -711,7 +711,7 @@
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../../reference/data-structures/index.html">
+  <a class="reference internal" href="../../../reference/data-structures/index.html">
    Data Stuctures
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
@@ -721,7 +721,7 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../../reference/data-structures/python/index.html">
+    <a class="reference internal" href="../../../reference/data-structures/python/index.html">
      Python Data Structures
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
@@ -731,7 +731,7 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/avl_tre.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/avl_tre.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          avl_tree
@@ -740,7 +740,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/binary-tri.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/binary-tri.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          binary_tree
@@ -749,7 +749,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/build-parse-tree.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/build-parse-tree.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          build_parse_tree
@@ -758,7 +758,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/build-tree.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/build-tree.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          build_tree
@@ -767,7 +767,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/circular-list.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/circular-list.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          cirular_list_push
@@ -776,7 +776,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/dequeue.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/dequeue.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          dequeue
@@ -785,7 +785,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/heap.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/heap.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          heapq_py
@@ -794,7 +794,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/node.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/node.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          node
@@ -803,7 +803,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/ordered_list.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/ordered_list.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          ordered_list
@@ -812,7 +812,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/prims_heap.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/prims_heap.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          prims_algorithm_heap
@@ -821,7 +821,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/queue.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/queue.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          queue
@@ -830,7 +830,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/single_list.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/single_list.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          single_list_push
@@ -839,7 +839,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/single_to_circular.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/single_to_circular.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          single_to_circular
@@ -848,7 +848,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/stack.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/stack.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          py_stack
@@ -857,7 +857,7 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../reference/data-structures/python/docs/stack%20copy.html">
+      <a class="reference internal" href="../../../reference/data-structures/python/docs/stack%20copy.html">
        <code class="xref py py-mod docutils literal notranslate">
         <span class="pre">
          stack
@@ -877,7 +877,7 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../contact/index.html">
+  <a class="reference internal" href="../../../contact/index.html">
    Contact Justin Napolitano
   </a>
  </li>
@@ -889,17 +889,17 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../bibliography/bibliography.html">
+  <a class="reference internal" href="../../../bibliography/bibliography.html">
    Bibliography
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../../genindex.html">
+  <a class="reference internal" href="../../../../genindex.html">
    Index
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../../py-modindex.html">
+  <a class="reference internal" href="../../../../py-modindex.html">
    Python Module Index
   </a>
  </li>
@@ -944,7 +944,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../../_sources/parts/tutorials/Conda/config-jupyter.md.txt"><button type="button"
+        <a class="dropdown-buttons" href="../../../../_sources/parts/tutorials/Conda/docs/configure-conda.md.txt"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -998,33 +998,28 @@
   </a>
   <ul class="visible nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#update-conda">
+     Update Conda
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#create-your-venv">
      Create Your Venv
     </a>
     <ul class="nav section-nav flex-column">
      <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#command">
-       Command
+      <a class="reference internal nav-link" href="#syntax">
+       Syntax
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#run">
+       Run
       </a>
      </li>
     </ul>
    </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#activate-your-venv">
-     Activate your Venv
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#configure-ipython-kernal-to-enable-jupyter-to-use-your-environment">
-     Configure ipython kernal to enable jupyter to use your environment
-    </a>
-   </li>
   </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#running-jupyter-with-your-environment">
-   Running Jupyter with your environment
-  </a>
  </li>
 </ul>
 
@@ -1036,7 +1031,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Configuraing Jupyter For Data Science</h1>
+                <h1>Configuraing Conda For Data Science</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -1057,33 +1052,28 @@
   </a>
   <ul class="visible nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#update-conda">
+     Update Conda
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#create-your-venv">
      Create Your Venv
     </a>
     <ul class="nav section-nav flex-column">
      <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#command">
-       Command
+      <a class="reference internal nav-link" href="#syntax">
+       Syntax
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#run">
+       Run
       </a>
      </li>
     </ul>
    </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#activate-your-venv">
-     Activate your Venv
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#configure-ipython-kernal-to-enable-jupyter-to-use-your-environment">
-     Configure ipython kernal to enable jupyter to use your environment
-    </a>
-   </li>
   </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#running-jupyter-with-your-environment">
-   Running Jupyter with your environment
-  </a>
  </li>
 </ul>
 
@@ -1093,59 +1083,50 @@
             </div>
             
               <div>
-                 <div class="tex2jax_ignore mathjax_ignore section" id="configuraing-jupyter-for-data-science">
-<h1>Configuraing Jupyter For Data Science<a class="headerlink" href="#configuraing-jupyter-for-data-science" title="Permalink to this headline">¶</a>
+                 <div class="tex2jax_ignore mathjax_ignore section" id="configuraing-conda-for-data-science">
+<h1>Configuraing Conda For Data Science<a class="headerlink" href="#configuraing-conda-for-data-science" title="Permalink to this headline">¶</a>
 </h1>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a>
 </h2>
-<div class="highlight-Bash notranslate">
-<div class="highlight"><pre><span></span>pip3 install jupyter
-</pre></div>
-</div>
+<p>Navigate to <a class="reference external" href="https://www.anaconda.com/products/individual">https://www.anaconda.com/products/individual</a> to download conda for your system.</p>
 </div>
 <div class="section" id="initial-configuration">
 <h2>Initial Configuration<a class="headerlink" href="#initial-configuration" title="Permalink to this headline">¶</a>
 </h2>
 <p>I typically begin my configuration by creating a data science virtual envioronment.  To begin this section of the tutorial open a terminal window.</p>
+<div class="section" id="update-conda">
+<h3>Update Conda<a class="headerlink" href="#update-conda" title="Permalink to this headline">¶</a>
+</h3>
+<p>Before you create your environment or download any packages update you conda environment.</p>
+<div class="highlight-Bash notranslate">
+<div class="highlight"><pre><span></span>conda update conda
+</pre></div>
+</div>
+</div>
 <div class="section" id="create-your-venv">
 <h3>Create Your Venv<a class="headerlink" href="#create-your-venv" title="Permalink to this headline">¶</a>
 </h3>
 <p>Now create a virtualenv.  You may name it whatever you want.  I will call mine data-science.  I will also choose python 3.9 as my python version.</p>
-<div class="section" id="command">
-<h4>Command<a class="headerlink" href="#command" title="Permalink to this headline">¶</a>
+<div class="section" id="syntax">
+<h4>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline">¶</a>
 </h4>
 <p>Below is the syntax to create the environment.</p>
 <div class="highlight-Bash notranslate">
-<div class="highlight"><pre><span></span>virtualenv /path/to/venvs/ &lt;name of venv&gt;
+<div class="highlight"><pre><span></span>conda create -n &lt;yourenvname&gt; <span class="nv">python</span><span class="o">=</span>&lt;x.x&gt; anaconda
 </pre></div>
 </div>
 </div>
-</div>
-<div class="section" id="activate-your-venv">
-<h3>Activate your Venv<a class="headerlink" href="#activate-your-venv" title="Permalink to this headline">¶</a>
-</h3>
+<div class="section" id="run">
+<h4>Run<a class="headerlink" href="#run" title="Permalink to this headline">¶</a>
+</h4>
+<p>Below is the syntax to create the environment.</p>
 <div class="highlight-Bash notranslate">
-<div class="highlight"><pre><span></span><span class="nb">source</span> /path/to/venvs/name of venv/bin/activate
-</pre></div>
-</div>
-</div>
-<div class="section" id="configure-ipython-kernal-to-enable-jupyter-to-use-your-environment">
-<h3>Configure ipython kernal to enable jupyter to use your environment<a class="headerlink" href="#configure-ipython-kernal-to-enable-jupyter-to-use-your-environment" title="Permalink to this headline">¶</a>
-</h3>
-<div class="highlight-Bash notranslate">
-<div class="highlight"><pre><span></span>ipython kernel install --user --name<span class="o">=</span>nameofvenv
+<div class="highlight"><pre><span></span>conda create -n data-science <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.9 anaconda
 </pre></div>
 </div>
 </div>
 </div>
-<div class="section" id="running-jupyter-with-your-environment">
-<h2>Running Jupyter with your environment<a class="headerlink" href="#running-jupyter-with-your-environment" title="Permalink to this headline">¶</a>
-</h2>
-<p>Start an instance of jupyter notebook.</p>
-<p>Select kernal from the dropbown menu and select your new venv kernal.</p>
-<p>View the screenshot below.</p>
-<p><span class="xref myst">Screen Shot</span></p>
 </div>
 </div>
 
@@ -1163,7 +1144,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./parts/tutorials/Conda"
+            path: "./parts/tutorials/Conda/docs"
         },
         predefinedOutput: true
     }
@@ -1199,7 +1180,7 @@
       </div>
     </div>
   
-  <script src="../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <script src="../../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
   </body>
 </html>
