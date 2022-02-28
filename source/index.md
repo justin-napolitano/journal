@@ -18,7 +18,7 @@ title: Justin Napolitano
 
 ```{toctree}
 :caption: Articles
-:maxdepth: 2
+:maxdepth: 1
 
 parts/articles/project-evolution-of-ngos/index
 parts/articles/project-supcourt-masterpiececake/index
