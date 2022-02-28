@@ -54,4 +54,4 @@ Select kernal from the dropbown menu and select your new venv kernal.
 
 View the screenshot below.
 
-![Screen Shot](/_static/pictures/jupyter-kernal-select.jpeg)
+![Screen Shot](/_static/pictures/jupyter-kernal-select.jpeg "Screen Shot")
