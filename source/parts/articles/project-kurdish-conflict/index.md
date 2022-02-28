@@ -1,8 +1,8 @@
 ---
-title: Terrorism and Conflict: Anatolia
+title: Terrorism and Conflict Anatolia
 ---
 
-# Terrorism and Conflict: Anatolia
+# Terrorism and Conflict Anatolia
 
 
 :::{Topic} Introduction
