@@ -1,12 +1,17 @@
 ---
 title: Justin Napolitano
 ---
-
-# Articles
-
+# journal.jnapolitano.io 
 :::{raw} html
 
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+:::
+
+## Articles
+
+:::{raw} html
+
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
 
 :::{card}
@@ -19,11 +24,11 @@ parts/articles/place_holder
 ```
 :::
 
-# Tutorials
+## Tutorials
 
 :::{raw} html
 
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
 
 :::{card}
@@ -49,12 +54,12 @@ parts/tutorials/spotify-cli/index
 
 
 
-# Posts 
+## Posts 
 
 
 :::{raw} html
 
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
 
 
@@ -69,11 +74,11 @@ parts/journal/posts
 :::
 
 
-# Reference 
+## Reference 
 
 :::{raw} html
 
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
 
 
@@ -91,7 +96,7 @@ parts/reference/data-structures/index.md
 :::
 
 
-# Contact
+## Contact
 
 :::{raw} html
 
@@ -109,11 +114,11 @@ parts/contact/index
 :::
 
 
-# Tables and Indices
+## Tables and Indices
 
 :::{raw} html
 
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <hr style="height:1px;border-width:0;color:gray;background-color:gray">
 :::
 
 
