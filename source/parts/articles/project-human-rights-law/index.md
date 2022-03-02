@@ -23,7 +23,7 @@ Human Rights Law Framework
 ---------------------------
 
 * A framework that compiles the majority of the international human rights law treaties into a single document that can be used by researchers documenting crimes against humanity. 
-* I produced this as a reference material for the link the anatolian project here. 
+* This project is a by product of the `The Anatolian Project <https://journal.jnapolitano.io/parts/articles/project-kurdish-conflict/index.html>` 
 
 Links
 ------
