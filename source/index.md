@@ -23,7 +23,7 @@ title: Justin Napolitano
 parts/articles/project-evolution-of-ngos/index
 parts/articles/project-supcourt-masterpiececake/index
 parts/articles/project-kurdish-conflict/index
-
+parts/articles/project-human-rights-law/index
 ```
 :::
 
