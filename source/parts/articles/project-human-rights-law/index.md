@@ -8,7 +8,7 @@
 :::
 
 
-# Human Rights Law Framework
+# International Human Rights Law Framework
 
 :::{admonition} The Ends Do Not Justify the Means
 
@@ -23,7 +23,7 @@ Human Rights Law Framework
 ---------------------------
 
 * A framework that compiles the majority of the international human rights law treaties into a single document that can be used by researchers documenting crimes against humanity. 
-* This project is a by product of the `The Anatolian Project <https://journal.jnapolitano.io/parts/articles/project-kurdish-conflict/index.html>` 
+* This project is a by product of the `The Anatolian Project <https://journal.jnapolitano.io/parts/articles/project-kurdish-conflict/index.html>`_
 
 Links
 ------
