@@ -21,6 +21,13 @@ seoSecondaryKeywords:
   - github pages deployment
   - dropbox backup
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 0.95
+topicFamilyNotes: >-
+  The post focuses extensively on automation of build, deployment, git workflows, and backup using
+  scripts and tooling, matching the 'automation' family's description and example slugs better than
+  other categories. While it relates to static site generation, the emphasis on automating the
+  entire pipeline aligns most closely with 'automation'.
 ---
 
 # journal: Technical Overview and Implementation Notes
@@ -77,4 +84,5 @@ Several Bash scripts support various tasks:
 ## Summary
 
 This project exemplifies a pragmatic approach to managing a large static documentation site with automation for build, deployment, and backup. Its modular content structure, combined with scripting and tooling, facilitates efficient updates and reliable publishing. The integration of bibliographic references and advanced Sphinx extensions indicates a focus on scholarly and technical content. Future improvements could focus on refining automation, expanding content, and enhancing deployment workflows.
+
 
