@@ -1,12 +1,27 @@
 ---
-slug: "github-journal"
-title: "journal"
-repo: "justin-napolitano/journal"
-githubUrl: "https://github.com/justin-napolitano/journal"
-generatedAt: "2025-11-23T09:11:54.042552Z"
-source: "github-auto"
+slug: github-journal
+title: 'Journal: Automated Sphinx-Based Static Site with Backup and Deployment'
+repo: justin-napolitano/journal
+githubUrl: https://github.com/justin-napolitano/journal
+generatedAt: '2025-11-23T09:11:54.042552Z'
+source: github-auto
+summary: >-
+  Technical overview of a Sphinx-powered static site integrating automated build, GitHub Pages
+  deployment, and Dropbox backup.
+tags:
+  - sphinx
+  - static-site
+  - github-pages
+  - backup
+  - automation
+  - dropbox
+seoPrimaryKeyword: sphinx static site
+seoSecondaryKeywords:
+  - build automation
+  - github pages deployment
+  - dropbox backup
+seoOptimized: true
 ---
-
 
 # journal: Technical Overview and Implementation Notes
 
@@ -62,3 +77,4 @@ Several Bash scripts support various tasks:
 ## Summary
 
 This project exemplifies a pragmatic approach to managing a large static documentation site with automation for build, deployment, and backup. Its modular content structure, combined with scripting and tooling, facilitates efficient updates and reliable publishing. The integration of bibliographic references and advanced Sphinx extensions indicates a focus on scholarly and technical content. Future improvements could focus on refining automation, expanding content, and enhancing deployment workflows.
+
