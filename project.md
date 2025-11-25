@@ -1,14 +1,14 @@
 ---
 slug: github-journal
 id: github-journal
-title: Automate Your Knowledge Management with Sphinx and Python
+title: Automate Your Knowledge Management with Sphinx
 repo: justin-napolitano/journal
 githubUrl: https://github.com/justin-napolitano/journal
 generatedAt: '2025-11-24T21:35:21.495Z'
 source: github-auto
 summary: >-
-  Explore a static site and knowledge management system using Sphinx, featuring
-  automation scripts and comprehensive documentation.
+  A guide to setting up a static site and knowledge management system using
+  Sphinx, with automation and deployment scripts.
 tags:
   - sphinx
   - python
@@ -18,11 +18,13 @@ tags:
   - dropbox
   - makefile
   - bash
-seoPrimaryKeyword: sphinx knowledge management system
+  - github pages
+  - automation
+seoPrimaryKeyword: sphinx static site automation
 seoSecondaryKeywords:
-  - static site automation
-  - python documentation tools
-  - github pages deployment
+  - knowledge management system
+  - python documentation
+  - ghp-import
   - backup scripts
   - makefile usage
 seoOptimized: true
