@@ -1,13 +1,13 @@
 ---
 slug: github-journal
-title: 'Journal: Automated Sphinx-Based Static Site with Backup and Deployment'
+title: Technical Overview of the Journal Project with Sphinx
 repo: justin-napolitano/journal
 githubUrl: https://github.com/justin-napolitano/journal
 generatedAt: '2025-11-23T09:11:54.042552Z'
 source: github-auto
 summary: >-
-  Technical overview of a Sphinx-powered static site integrating automated build, GitHub Pages
-  deployment, and Dropbox backup.
+  Explore the architecture, automation, and deployment of the journal project
+  built with Sphinx for structured documentation and knowledge management.
 tags:
   - sphinx
   - static-site
@@ -15,19 +15,29 @@ tags:
   - backup
   - automation
   - dropbox
-seoPrimaryKeyword: sphinx static site
+  - static site
+  - documentation
+  - github pages
+  - python
+  - bash
+seoPrimaryKeyword: sphinx documentation automation
 seoSecondaryKeywords:
-  - build automation
+  - static site generation
   - github pages deployment
-  - dropbox backup
+  - knowledge management system
+  - build automation
+  - content organization
 seoOptimized: true
 topicFamily: automation
 topicFamilyConfidence: 0.95
 topicFamilyNotes: >-
-  The post focuses extensively on automation of build, deployment, git workflows, and backup using
-  scripts and tooling, matching the 'automation' family's description and example slugs better than
-  other categories. While it relates to static site generation, the emphasis on automating the
-  entire pipeline aligns most closely with 'automation'.
+  The post focuses extensively on automation of build, deployment, git
+  workflows, and backup using scripts and tooling, matching the 'automation'
+  family's description and example slugs better than other categories. While it
+  relates to static site generation, the emphasis on automating the entire
+  pipeline aligns most closely with 'automation'.
+kind: project
+id: github-journal
 ---
 
 # journal: Technical Overview and Implementation Notes
