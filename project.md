@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/journal
 generatedAt: '2025-11-24T21:35:21.495Z'
 source: github-auto
 summary: >-
-  A guide to setting up a static site and knowledge management system using
-  Sphinx, with automation and deployment scripts.
+  A guide to setting up a static site and knowledge management system using Sphinx, with automation
+  and deployment scripts.
 tags:
   - sphinx
   - python
@@ -28,8 +28,8 @@ seoSecondaryKeywords:
   - backup scripts
   - makefile usage
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: static
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -149,4 +149,5 @@ journal/
 ---
 
 For detailed documentation, visit [https://docs.jnapolitano.io](https://docs.jnapolitano.io).
+
 
